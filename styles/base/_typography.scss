@@ -1,20 +1,30 @@
 h1 {
   color: $clr-light;
+  font: $header;
 }
 
 h2 {
-  color: $clr-secondary;
+  color: $clr-light;
+  font: $header2;
 }
 
 h3 {
-color: $clr-secondary;
+  color: $clr-light;
+  font: $header3;
 }
 
 p {
-color: $clr-secondary;
+  color: $clr-secondary;
+  font: $text;
 }
 
 a {
+  font: $text;
   color: inherit;
   text-decoration: none;
+}
+
+li{
+  color: $clr-secondary;
+  font: $list-item;
 }
